@@ -117,3 +117,26 @@ ul a {
     border-radius: 10px;
     border: 5px solid var(--primary);
 }
+
+/* QUOTE */
+.quote {
+    background-color: var(--secondary);
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+}
