@@ -18,8 +18,11 @@ ul {
 ul a {
     text-decoration: none;
     color: var(--text-light);
+    font-size: 18px;
+    color: var(--secondary);
 }
 
+/* HEADER */
 .header {
     color: var(--text-light);
     background-color: var(--background);
@@ -38,3 +41,42 @@ ul a {
     font-size: 24px;
 }
 
+/* HERO */
+.hero {
+    background-color: var(--background);
+    color: var(--text-light);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+}
+
+.hero-info {
+    width: 500px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: var(--secondary);
+    padding: 8px;
+}
+
+.hero-btn {
+    color: var(--text-light);
+    background-color: var(--primary);
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 0px solid var(--primary);
+}
+
+.hero-img img {
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    border: 5px solid var(--primary);
+}
